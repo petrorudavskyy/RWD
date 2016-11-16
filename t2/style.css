@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+@media (max-width: 767px) {
+	
+	.tablet{
+		display: none;
+	}
+
+	.PC {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.device {
+		display: none;
+	}
+
+	.PC {
+		display: none;
+	}
+	
+}
+
+@media (min-width: 1024px) {
+	.device {
+		display: none;
+	}
+
+	.tablet {
+		display: none;
+	}
+	
+}
+
+html, body {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #C0BEBE;
+	color: #919191;
+}

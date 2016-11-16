@@ -1,0 +1,97 @@
+.logo {
+	background: #00B2DE;
+}
+
+.nav {
+	background: #FDAE50;
+}
+
+.maincont {
+	height: 50vh;
+	background: #FD835E;
+}
+
+.botcont1, .botcont2, .botcont3 {
+	background: #FCF76A;
+}
+
+.footcont {
+	height: 70px;
+	background: #FF87FE;
+}
+
+.header, .main, .bottom, .footer {
+	padding-top: 1%;
+}
+/*Small devices*/
+@media(max-width:767px) {
+	.righthead {
+		padding-left: 1%;
+	}
+
+	.lefthead {
+		padding-right: 1%;
+	}
+
+	.botcont1, .botcont2, .botcont3{
+		margin-top: 2%;
+	}
+
+	.logo {
+		height: 6vh;
+	}
+	.nav {
+		height: 6vh;
+	}
+
+	.botcont1, .botcont2, .botcont3 {
+		height: 14vh;
+	}
+	.footcont {
+		display: none;
+	}
+}
+
+/*Tablet*/
+@media(min-width:768px) {
+	.righthead {
+		padding-left: 1%;
+	}
+
+	.lefthead {
+		padding-right: 1%;
+	}
+
+	.logo {
+		height: 10vh;
+	}
+	.nav {
+		height: 10vh;
+	}
+	.maincont {
+		height: 45vh;
+	}
+	.botcont1, .botcont2, .botcont3 {
+		height: 30vh;
+	}
+	.footcont {
+		height: 10vh;
+	}
+}
+
+/*Laptop*/
+@media(min-width:992px) {
+
+	.footcont {
+		display: none;
+	}
+}
+
+/*PC - large*/
+
+@media(min-width:1200px) {
+
+	.footcont {
+		display: none;
+	}
+}

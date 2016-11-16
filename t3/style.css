@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	background: #E6E6E6;
+}
+
+.cont {
+		display: flex;
+		flex-wrap: wrap;
+}
+
+
+/*Media small device*/
+@media (max-width: 767px){
+	
+	.header {
+		margin: 2%;
+		height: 110px;
+		width: 100%;
+		background: #1C9EE9;
+	}
+
+	.asides {
+		margin: 2%;
+		height: 120px;
+		width: 100%;
+		background: #02811A;
+	}
+
+	.maincontent {
+		margin: 2%;
+		height: 345px;
+		width: 100%;
+		background: #DD1D3D;
+	}
+
+	.advertising {
+		display: none;
+	}
+}
+
+/*Media tablets*/
+@media (min-width: 768px) and (max-width: 1199px){
+	.header {
+		margin: 2%;
+		height: 100px;
+		width: 100%;
+		background: #1C9EE9;
+
+	}
+
+	.asides {
+		margin-bottom: 2%;
+		margin-right: 2%;
+		margin-left: 2%;
+		height: 100px;
+		width: 100%;
+		background: #02811A;
+	}
+
+	.maincontent {
+		margin-left: 2%;
+		margin-right: 2%;
+		height: 370px;
+		width: 47%;
+		background: #DD1D3D;
+	}
+
+	.advertising {
+		margin-right: 2%;
+		height: 370px;
+		width: 47%;
+		background: #F89800;
+	}
+}
+
+/*Media for pc*/
+@media (min-width: 1200px){
+	.header {
+		margin: 2%;
+		height: 100px;
+		width: 100%;
+		background: #1C9EE9;
+	}
+
+	.asides {
+		margin-left: 2%;
+		height: 490px;
+		width: 22%;
+		background: #02811A;
+	}
+
+	.maincontent {
+		margin-left: 2%;
+		margin-right: 2%;
+		height: 490px;
+		width: 53%;
+		background: #DD1D3D;
+	}
+
+	.advertising {
+		margin-right: 2%;
+		height: 490px;
+		width: 17%;
+		background: #F89800;
+	}
+}
+
