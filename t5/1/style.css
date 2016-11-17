@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butt {
+    width: auto;
+    height: auto;
+    border: 2px solid #737373;
+    border-radius: 18px;
+    background: #FAFAFA;
+}
+
+.button {
+    margin: 1.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    border: 5px solid #B0AEAE;
+    box-shadow: inset 0px 0px 2px 1px #646464;
+    border-radius: 15px;
+    background: linear-gradient(180deg , #E9E9E9, #C8C8C8 45%,#B4B4B4 50%,#7C7C7C);
+    font-weight: bold;
+    font-size: 25px;
+    color: #5E5D5D;
+}
+
+

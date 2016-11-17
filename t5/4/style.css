@@ -1,0 +1,309 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.cursor {
+	width: 5%;
+	position: absolute;
+	margin-top: 240px;
+	margin-left: 400px;
+	-webkit-animation:rotatecursor 3s linear infinite;
+	-moz-animation: rotatecursor 3s linear infinite;
+	animation: rotatecursor 3 linear infinite;
+	
+}
+
+
+.apple {
+	width: 10%;
+	position: absolute;
+	-webkit-animation: movingapple linear 10s  10 alternate;
+	-moz-animation: movingapple linear 10s  10 alternate;
+	animation: movingapple linear 10s  10 alternate;
+}
+
+.facebook {
+	width: 10%;
+	position: absolute;
+	-webkit-animation: movingfecebook linear 10s  10 alternate;
+	-moz-animation: movingfacebook linear 10s  10 alternate;
+	animation: movingfacebook linear 10s  10 alternate;
+}
+
+.google {
+	width: 10%;
+	position: absolute;
+	-webkit-animation: movinggoogle linear 10s  10 alternate;
+	-moz-animation: movinggoogle linear 10s  10 alternate;
+	animation: movinggoogle linear 10s  10 alternate;
+}
+
+.intel {
+	width: 10%;
+	position: absolute;
+	-webkit-animation: movingintel linear 10s  10 alternate;
+	-moz-animation: movingintel linear 10s  10 alternate;
+	animation: movingintel linear 10s  10 alternate;
+}
+
+
+.oracle {
+	width: 10%;
+	position: absolute;
+	-webkit-animation: movingoracle linear 10s  10 alternate;
+	-moz-animation: movingoracle linear 10s  10 alternate;
+	animation: movingoracle linear 10s  10 alternate;
+}
+
+.ibm {
+	width: 10%;
+	position: absolute;
+	-webkit-animation: movingibm linear 10s  10 alternate;
+	-moz-animation: movingibm linear 10s  10 alternate;
+	animation: movingibm linear 10s  10 alternate;
+}
+
+.hp {
+	width: 10%;
+	position: absolute;
+	-webkit-animation: movinghp linear 10s  10 alternate;
+	-moz-animation: movinghp linear 10s  10 alternate;
+	animation: movinghp linear 10s  10 alternate;
+}
+
+.amazon {
+	width: 10%;
+	position: absolute;
+	-webkit-animation: movingamazon linear 10s  10 alternate;
+	-moz-animation: movingamazon linear 10s  10 alternate;
+	animation: movingamazon linear 10s  10 alternate;
+}
+
+/*Cursor*/
+
+@-webkit-keyframes rotatecursor {
+  100% {-webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+    transform: rotate(360deg);}
+}
+@keyframes rotatecursor {
+  100% {-webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+    transform: rotate(360deg);}
+}
+
+/*Apple*/
+@-webkit-keyframes movingapple {
+	0% {opacity: 0; left: 100px; top:100px;}
+	25% {opacity: 1; left: 100px; top: 300px;}
+	50% {opacity: 0; left: 600px; top: 300px; }
+	75% {opacity: 1; left: 600px; top: 100px;}
+	100% {opacity: 0; left: 100px; top: 100px;}
+}
+
+
+@-moz-keyframes movingapple {
+	0% {opacity: 0; left: 100px; top:100px;}
+	25% {opacity: 1; left: 100px; top: 300px;}
+	50% {opacity: 0; left: 600px; top: 300px; }
+	75% {opacity: 1; left: 600px; top: 100px;}
+	100% {opacity: 0; left: 100px; top: 100px;}
+}
+
+@keyframes movingapple {
+	0% {opacity: 0; left: 100px; top:100px;}
+	25% {opacity: 1; left: 100px; top: 300px;}
+	50% {opacity: 0; left: 600px; top: 300px; }
+	75% {opacity: 1; left: 600px; top: 100px;}
+	100% {opacity: 0; left: 100px; top: 100px;}
+}
+
+/*Facebook*/
+
+@-webkit-keyframes movingfacebook {
+	0% {opacity: 0; left: 100px; top:300px;}
+	25% {opacity: 1; left: 600px; top: 300px;}
+	50% {opacity: 0; left: 600px; top: 100px; }
+	75% {opacity: 1; left: 100px; top: 100px;}
+	100% {opacity: 0; left: 100px; top: 300px;}
+}
+
+
+@-moz-keyframes movingfacebook {
+	0% {opacity: 0; left: 100px; top:300px;}
+	25% {opacity: 1; left: 600px; top: 300px;}
+	50% {opacity: 0; left: 600px; top: 100px; }
+	75% {opacity: 1; left: 100px; top: 100px;}
+	100% {opacity: 0; left: 100px; top: 300px;}
+}
+
+@keyframes movingfacebook {
+	0% {opacity: 0; left: 100px; top:300px;}
+	25% {opacity: 1; left: 600px; top: 300px;}
+	50% {opacity: 0; left: 600px; top: 100px; }
+	75% {opacity: 1; left: 100px; top: 100px;}
+	100% {opacity: 0; left: 100px; top: 300px;}
+}
+
+/*Google*/
+
+@-webkit-keyframes movinggoogle {
+	0% {opacity: 0; left: 600px; top:300px;}
+	25% {opacity: 1; left: 600px; top: 100px;}
+	50% {opacity: 0; left: 100px; top: 100px; }
+	75% {opacity: 1; left: 100px; top: 300px;}
+	100% {opacity: 0; left: 600px; top: 300px;}
+}
+
+
+@-moz-keyframes movinggoogle {
+	0% {opacity: 0; left: 600px; top:300px;}
+	25% {opacity: 1; left: 600px; top: 100px;}
+	50% {opacity: 0; left: 100px; top: 100px; }
+	75% {opacity: 1; left: 100px; top: 300px;}
+	100% {opacity: 0; left: 600px; top: 300px;}
+}
+
+@keyframes movinggoogle {
+	0% {opacity: 0; left: 600px; top:300px;}
+	25% {opacity: 1; left: 600px; top: 100px;}
+	50% {opacity: 0; left: 100px; top: 100px; }
+	75% {opacity: 1; left: 100px; top: 300px;}
+	100% {opacity: 0; left: 600px; top: 300px;}
+}
+
+/*Intel*/
+
+@-webkit-keyframes movingintel {
+	0% {opacity: 0; left: 600px; top:100px;}
+	25% {opacity: 1; left: 100px; top: 100px;}
+	50% {opacity: 0; left: 100px; top: 300px; }
+	75% {opacity: 1; left: 600px; top: 300px;}
+	100% {opacity: 0; left: 600px; top: 100px;}
+}
+
+
+@-moz-keyframes movingintel {
+	0% {opacity: 0; left: 600px; top:100px;}
+	25% {opacity: 1; left: 100px; top: 100px;}
+	50% {opacity: 0; left: 100px; top: 300px; }
+	75% {opacity: 1; left: 600px; top: 300px;}
+	100% {opacity: 0; left: 600px; top: 100px;}
+}
+
+@keyframes movingintel {
+	0% {opacity: 0; left: 600px; top:100px;}
+	25% {opacity: 1; left: 100px; top: 100px;}
+	50% {opacity: 0; left: 100px; top: 300px; }
+	75% {opacity: 1; left: 600px; top: 300px;}
+	100% {opacity: 0; left: 600px; top: 100px;}
+}
+
+/*Oracle*/
+
+@-webkit-keyframes movingoracle {
+	0% {opacity: 1; left: 600px; top:100px;}
+	25% {opacity: 0; left: 100px; top: 100px;}
+	50% {opacity: 1; left: 100px; top: 300px; }
+	75% {opacity: 0; left: 600px; top: 300px;}
+	100% {opacity: 1; left: 600px; top: 100px;}
+}
+
+
+@-moz-keyframes movingoracle {
+	0% {opacity: 1; left: 600px; top:100px;}
+	25% {opacity: 0; left: 100px; top: 100px;}
+	50% {opacity: 1; left: 100px; top: 300px; }
+	75% {opacity: 0; left: 600px; top: 300px;}
+	100% {opacity: 1; left: 600px; top: 100px;}
+}
+
+@keyframes movingoracle {
+	0% {opacity: 1; left: 600px; top:100px;}
+	25% {opacity: 0; left: 100px; top: 100px;}
+	50% {opacity: 1; left: 100px; top: 300px; }
+	75% {opacity: 0; left: 600px; top: 300px;}
+	100% {opacity: 1; left: 600px; top: 100px;}
+}
+
+/*IIBM*/
+
+@-webkit-keyframes movingibm {
+	0% {opacity: 1; left: 600px; top:300px;}
+	25% {opacity: 0; left: 600px; top: 100px;}
+	50% {opacity: 1; left: 100px; top: 100px; }
+	75% {opacity: 0; left: 100px; top: 300px;}
+	100% {opacity: 1; left: 600px; top: 300px;}
+}
+
+
+@-moz-keyframes movingibm {
+	0% {opacity: 1; left: 600px; top:300px;}
+	25% {opacity: 0; left: 600px; top: 100px;}
+	50% {opacity: 1; left: 100px; top: 100px; }
+	75% {opacity: 0; left: 100px; top: 300px;}
+	100% {opacity: 1; left: 600px; top: 300px;}
+}
+
+@keyframes movingibm {
+	0% {opacity: 1; left: 600px; top:300px;}
+	25% {opacity: 0; left: 600px; top: 100px;}
+	50% {opacity: 1; left: 100px; top: 100px; }
+	75% {opacity: 0; left: 100px; top: 300px;}
+	100% {opacity: 1; left: 600px; top: 300px;}
+}
+
+/*HP*/
+
+@-webkit-keyframes movinghp {
+	0% {opacity: 1; left: 100px; top:300px;}
+	25% {opacity: 0; left: 600px; top: 300px;}
+	50% {opacity: 1; left: 600px; top: 100px; }
+	75% {opacity: 0; left: 100px; top: 100px;}
+	100% {opacity: 1; left: 100px; top: 300px;}
+}
+
+
+@-moz-keyframes movinghp {
+	0% {opacity: 1; left: 100px; top:300px;}
+	25% {opacity: 0; left: 600px; top: 300px;}
+	50% {opacity: 1; left: 600px; top: 100px; }
+	75% {opacity: 0; left: 100px; top: 100px;}
+	100% {opacity: 1; left: 100px; top: 300px;}
+}
+
+@keyframes movinghp {
+	0% {opacity: 1; left: 100px; top:300px;}
+	25% {opacity: 0; left: 600px; top: 300px;}
+	50% {opacity: 1; left: 600px; top: 100px; }
+	75% {opacity: 0; left: 100px; top: 100px;}
+	100% {opacity: 1; left: 100px; top: 300px;}
+}
+
+/*Amazon*/
+
+@-webkit-keyframes movingamazon {
+	0% {opacity: 1; left: 100px; top:100px;}
+	25% {opacity: 0; left: 100px; top: 300px;}
+	50% {opacity: 1; left: 600px; top: 300px; }
+	75% {opacity: 0; left: 600px; top: 100px;}
+	100% {opacity: 1; left: 100px; top: 100px;}
+}
+
+
+@-moz-keyframes movingamazon {
+	0% {opacity: 1; left: 100px; top:100px;}
+	25% {opacity: 0; left: 100px; top: 300px;}
+	50% {opacity: 1; left: 600px; top: 300px; }
+	75% {opacity: 0; left: 600px; top: 100px;}
+	100% {opacity: 1; left: 100px; top: 100px;}
+}
+
+@keyframes movingamazon {
+	0% {opacity: 1; left: 100px; top:100px;}
+	25% {opacity: 0; left: 100px; top: 300px;}
+	50% {opacity: 1; left: 600px; top: 300px; }
+	75% {opacity: 0; left: 600px; top: 100px;}
+	100% {opacity: 1; left: 100px; top: 100px;}
+}
