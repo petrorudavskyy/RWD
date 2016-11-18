@@ -1,3 +1,14 @@
+body {
+	display: flex;
+	justify-content: center;
+}
+
 .icon {
-	content: url('facebook.png');
+	text-align: center;
+	width: 200px;
+	height: 100px;
+}
+
+.logo:before {
+	content: url("facebook.png");
 }
