@@ -271,19 +271,19 @@
 		width: 68%;
 		height: 13rem;
 		order: 3;
-		/*margin-right: 16px;*/
+		margin-right: 19px;
 		margin-left: 0;
 	}
 
 	.blue {
 		
 		background: #0243FF;
-		width: 30%;
+		width: 29.5%;
 		height: 13rem;
 		order: 4;
 		margin-top: -100px;
 		margin-right: 0;
-		margin-left: 15px;
+		/*margin-left: 15px;*/
 	}
 }
 
