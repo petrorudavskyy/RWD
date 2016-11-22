@@ -30,7 +30,7 @@
 		height: 4rem;
 		flex-basis: auto;
 		order: 1;
-		margin: 1%;
+		margin: 5px;
 	}
 
 	.cont {
@@ -39,7 +39,7 @@
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		margin: 1%;
+		margin: 5px;
 	}
 
 	.cont [class^="content"]:first-child {
@@ -54,7 +54,7 @@
 		width: 100%;
 		height: 8rem;
 		order: 3;
-		margin: 1%;
+		margin: 5px;
 	}
 
 	.green {
@@ -62,7 +62,7 @@
 		width: 100%;
 		order:4;
 		height: 8rem;
-		margin: 1%;
+		margin: 5px;
 	}
 
 	.footer {
@@ -70,7 +70,7 @@
 		width: 100%;
 		height: 8rem;
 		order: 5;
-		margin: 1%;
+		margin: 5px;
 	}
 
 	.blue {
@@ -78,11 +78,11 @@
 		width: 100%;
 		height: 8rem;
 		order: 6;
-		margin: 1%;
+		margin: 5px;
 	}
 }
 
-@media (min-width: 551px) and (max-width: 900px){
+@media (min-width: 551px) and (max-width: 1099px){
 	.main {
 		width: 100%;
 	}
@@ -93,14 +93,15 @@
 		height: 4rem;
 		flex-basis: auto;
 		order: 1;
-		margin: 1%;
+		margin: 7px;
 	}
 	.orange {
 		background: orange;
 		width: 60%;
 		height: 8rem;
 		order: 2;
-		margin: 1%;
+		margin-left: 7px;
+		margin-right: 3.5px;
 	}
 
 	.green {
@@ -108,7 +109,9 @@
 		width: 36%;
 		height: 8rem;
 		order: 2;
-		margin: 1%;
+		margin-right: 7px;
+		margin-left: 3.5px;
+		
 	}
 
 	.cont {
@@ -117,7 +120,7 @@
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		margin: 1%;
+		margin: 7px;
 	}
 
 	.cont [class^="content"]:first-child {
@@ -133,7 +136,7 @@
 		width: 100%;
 		height: 15rem;
 		order: 5;
-		margin: 1%;
+		margin: 7px;
 	}
 
 	.blue {
@@ -141,14 +144,14 @@
 		width: 100%;
 		height: 8rem;
 		order: 6;
-		margin: 1%;
+		margin: 7px;
 	}
 		
 }
 
 
 
-@media (min-width: 901px){
+@media (min-width: 1100px){
 		
 
 	.header {
@@ -156,18 +159,19 @@
 		width: 100%;
 		height: 4rem;
 		flex-basis: auto;
-		margin: 1%;
+		margin-bottom: 10px;
 	}
 
 	.orange {
 		background: #FF7800;
 		width: 100%;
 		height: 8rem;
-		margin: 1%;
+		margin-bottom: 10px;
 		}
 
 	.cont {
-		margin: 1%;
+		margin-left: 0px;
+		margin-right: 0px;
 		order: 1;
 		width: 70%;
 		display: flex;
@@ -182,36 +186,37 @@
 		background: yellow;
 		margin-left: 0;
 		margin-top: 0;
-		margin-right: 2%;
-		margin-bottom: 2%;
+		margin-right: 10px;
+		margin-bottom: 10px;
 	}
 	
 	.green {
 		background: green;
-		width: 26%;
+		width: 30%;
 		order:2;
 		height: 14rem;
-		margin: 1%;
+		margin-left: 0px;
 		margin-right: 0;
 	}
 
 	.footer {
 		background: #F58DD6;
-		width: 68.5%;
+		width: 68%;
 		height: 13rem;
 		order: 3;
-		margin: 1%;
-		margin-right: 2.5%;
+		/*margin-right: 16px;*/
+		margin-left: 0;
 	}
 
 	.blue {
-		margin: 1%;
+		
 		background: #0243FF;
-		width: 26%;
+		width: 30%;
 		height: 13rem;
 		order: 4;
-		margin-top: -110px;
-		
+		margin-top: -100px;
+		margin-right: 0;
+		margin-left: 15px;
 	}
 }
 
