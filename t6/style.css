@@ -82,7 +82,7 @@
 	}
 }
 
-@media (min-width: 551px) and (max-width: 1099px){
+@media (min-width: 551px) and (max-width: 799px){
 	.main {
 		width: 100%;
 	}
@@ -93,24 +93,24 @@
 		height: 4rem;
 		flex-basis: auto;
 		order: 1;
-		margin: 7px;
+		margin: 6px;
 	}
 	.orange {
 		background: orange;
 		width: 60%;
 		height: 8rem;
 		order: 2;
-		margin-left: 7px;
-		margin-right: 3.5px;
+		margin-left: 6px;
+		margin-right: 3px;
 	}
 
 	.green {
 		background: green;
-		width: 36%;
+		width: 37%;
 		height: 8rem;
 		order: 2;
-		margin-right: 7px;
-		margin-left: 3.5px;
+		margin-right: 3px;
+		margin-left: 3px;
 		
 	}
 
@@ -120,7 +120,7 @@
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		margin: 7px;
+		margin: 6px;
 	}
 
 	.cont [class^="content"]:first-child {
@@ -136,7 +136,7 @@
 		width: 100%;
 		height: 15rem;
 		order: 5;
-		margin: 7px;
+		margin: 6px;
 	}
 
 	.blue {
@@ -144,7 +144,74 @@
 		width: 100%;
 		height: 8rem;
 		order: 6;
-		margin: 7px;
+		margin: 6px;
+	}
+		
+}
+
+@media (min-width: 800px) and (max-width: 1099px){
+	.main {
+		width: 100%;
+	}
+	
+	.header {
+		background: #FF0000;
+		width: 100%;
+		height: 4rem;
+		flex-basis: auto;
+		order: 1;
+		margin: 8px;
+	}
+	.orange {
+		background: orange;
+		width: 60%;
+		height: 8rem;
+		order: 2;
+		margin-left: 8px;
+		margin-right: 4px;
+	}
+
+	.green {
+		background: green;
+		width: 37.5%;
+		height: 8rem;
+		order: 2;
+		margin-right: 3px;
+		margin-left: 4px;
+		
+	}
+
+	.cont {
+		order: 3;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin: 8px;
+	}
+
+	.cont [class^="content"]:first-child {
+		display: flex;
+		width: 100%;
+		height: 10rem;
+		background: yellow;
+	}
+
+	
+	.footer {
+		background: #F58DD6;
+		width: 100%;
+		height: 15rem;
+		order: 5;
+		margin: 8px;
+	}
+
+	.blue {
+		background: #0243FF;
+		width: 100%;
+		height: 8rem;
+		order: 6;
+		margin: 8px;
 	}
 		
 }
